@@ -32,7 +32,7 @@
 
 .footerContainer-background {
   position: absolute;
-  bottom: 15.6rem;
+  bottom: 100%;
   z-index: -1;
 }
 
@@ -84,11 +84,5 @@
   .footerForm {
     display: flex;
     flex-direction: column;
-  }
-}
-
-@media all and (max-width: 1252px) {
-  .footerContainer-background {
-    bottom: 16.6rem;
   }
 }

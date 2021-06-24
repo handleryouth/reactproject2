@@ -20,7 +20,7 @@
 
 /* for mobile devices */
 
-@media all and (max-width: 683px) {
+@media all and (max-width: 885px) {
   .firstslide-description, .firstslide-image {
     width: 90%;
   }
