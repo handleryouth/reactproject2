@@ -1,0 +1,94 @@
+.footerContainer {
+  display: flex;
+  background-color: hsl(192, 100%, 9%);
+  position: relative;
+  overflow-x: clip;
+  color: white;
+}
+
+.socialMediaContainer i {
+  margin: 1rem 2rem 0 0;
+}
+
+.footerForm input[type="text"] {
+  width: 20vw;
+  max-width: 288px;
+  min-width: 14rem;
+  height: 2rem;
+  box-sizing: border-box;
+}
+
+.footerForm button {
+  width: 129px;
+  height: 2rem;
+  box-sizing: border-box;
+  margin-left: 2rem;
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footerContainer-background {
+  position: absolute;
+  bottom: 15.6rem;
+  z-index: -1;
+}
+
+.footerParagraph {
+  width: 90%;
+}
+
+.marginfooter {
+  margin-left: 5vw;
+}
+
+@media all and (max-width: 557px) {
+  .footerContainer {
+    flex-direction: column-reverse;
+  }
+
+  .marginfooter {
+    margin: 2rem auto;
+    width: 90%;
+  }
+
+  .footerParagraph {
+    width: 100%;
+  }
+
+  .footerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .footerForm input[type="text"] {
+    width: 100%;
+    max-width: none;
+    min-width: none;
+  }
+
+  .footerForm button {
+    margin-left: 0;
+  }
+}
+
+@media all and (max-width: 807px) {
+  .footerForm button {
+    margin-left: 0;
+  }
+
+  .footerForm {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media all and (max-width: 1252px) {
+  .footerContainer-background {
+    bottom: 16.6rem;
+  }
+}

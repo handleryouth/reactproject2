@@ -1,0 +1,27 @@
+.firstslide-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.firstslide-image {
+  width: 50%;
+  margin-top: 3rem;
+}
+
+.firstslide-description {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.firstslide-description p {
+  margin: 0 auto 1rem auto;
+}
+
+/* for mobile devices */
+
+@media all and (max-width: 683px) {
+  .firstslide-description, .firstslide-image {
+    width: 90%;
+  }
+}
