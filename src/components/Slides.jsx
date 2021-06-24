@@ -4,10 +4,6 @@ import SlideComponent from "./SlideComponent";
 function ListSlides() {
   return (
     <div className="slidesContainer">
-    <img className="slide1img-top" src="/images/bg-section-bottom-desktop-1.svg" alt="Background-image" />
-    <img className="slide1img-bottom" src="/images/bg-section-bottom-desktop-2.svg" alt="Background-image" />
-    <img className="slide2img-top" src="/images/bg-section-bottom-desktop-1.svg" alt="Background-image" />
-    <img className="slide2img-bottom" src="/images/bg-section-bottom-desktop-2.svg" alt="Background-image" />
       <SlideComponent
         image="/images/illustration-grow-together.svg"
         header="Grow Together"
@@ -16,6 +12,20 @@ function ListSlides() {
           with a feedback form."
         container="containerStyle"
         ImageSize="imageWidth"
+        imgtop={
+          <img
+            className="slide1img-top"
+            src="/images/bg-section-bottom-desktop-1.svg"
+            alt="Background-img"
+          />
+        }
+        imgbottom={
+          <img
+            className="slide1img-bottom"
+            src="/images/bg-section-bottom-desktop-2.svg"
+            alt="Background-img"
+          />
+        }
       />
 
       <SlideComponent
@@ -34,6 +44,20 @@ function ListSlides() {
   once signed in to your app, your users can start chatting immediately."
         container="containerStyle"
         ImageSize="imageWidth"
+        imgtop={
+          <img
+            className="slide2img-top"
+            src="/images/bg-section-bottom-desktop-1.svg"
+            alt="Background-img"
+          />
+        }
+        imgbottom={
+          <img
+            className="slide2img-bottom"
+            src="/images/bg-section-bottom-desktop-2.svg"
+            alt="Background-img"
+          />
+        }
       />
     </div>
   );
