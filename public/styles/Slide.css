@@ -74,3 +74,17 @@
     top: -10%;
   }
 }
+
+@media all and (max-width: 499px) {
+  .slide1img-top,
+  .slide2img-top {
+    top: -5%;
+  }
+}
+
+@media all and (max-width: 219px) {
+  .slide1img-top,
+  .slide2img-top {
+    top: -3%;
+  }
+}
